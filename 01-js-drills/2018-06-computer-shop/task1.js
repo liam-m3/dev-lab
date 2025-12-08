@@ -21,20 +21,19 @@ const PRICES = {
     "Midi Tower": 70,
   },
   usbPorts: {
-    "2": 10,
-    "4": 20,
+    2: 10,
+    4: 20,
   },
 };
 
 /**
- * 
  * @param {Object} choices
  * @param {"p3"|"p5"|"p7"} choices.processor
  * @param {"16GB"|"32GB"} choices.ram
  * @param {"1TB"|"2TB"} choices.storage
  * @param {'19"'|'23"'} choices.screen
  * @param {"Mini Tower"|"Midi Tower"} choices.caseType
- * @param {"2"|"4"} choices.usbPorts  // number of ports as string for simplicity
+ * @param {"2"|"4"} choices.usbPorts
  *
  * @returns {{
  *   componentPrices: {
@@ -86,7 +85,7 @@ export function calculateEstimate(choices) {
     casePrice +
     usbPrice;
 
-  const totalWithMarkup = +(subtotal * 1.2).toFixed(2); 
+  const totalWithMarkup = +(subtotal * 1.2).toFixed(2);
 
   return { componentPrices, subtotal, totalWithMarkup };
 }
