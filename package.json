@@ -1,0 +1,25 @@
+{
+  "name": "dev-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liam-m3/dev-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/liam-m3/dev-lab/issues"
+  },
+  "homepage": "https://github.com/liam-m3/dev-lab#readme",
+  "devDependencies": {
+    "vitest": "^4.0.15"
+  }
+}
