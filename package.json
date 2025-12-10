@@ -14,12 +14,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/liam-m3/dev-lab/issues"
   },
   "homepage": "https://github.com/liam-m3/dev-lab#readme",
   "devDependencies": {
+    "@vitest/ui": "^4.0.15",
     "vitest": "^4.0.15"
   }
 }
