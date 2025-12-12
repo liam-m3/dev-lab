@@ -11,8 +11,6 @@ You need to create a program for a farmer to track milk production from a herd o
 - Milk volume (yield) is recorded in **litres to 1 decimal place**
 - Herd size is **fixed**
 
----
-
 ## TASK 1 – Record the Yield
 
 ### What You Need to Do:
@@ -36,8 +34,6 @@ You'll need to store:
 - Identity codes and yields together
 
 **Suggested approach:** Use a 2D array or list of records/dictionaries to store cow IDs and their daily yields.
-
----
 
 ## TASK 2 – Calculate the Statistics
 
@@ -64,8 +60,6 @@ Using the data from Task 1, calculate and display:
 4. Add to herd total
 5. Calculate average = total ÷ number of cows
 6. Display results
-
----
 
 ## TASK 3 – Identify High and Low Producers
 
@@ -100,8 +94,6 @@ Extend Task 2 to identify:
   - Total for both milkings in a day < 12 litres
   (Clarify which interpretation to use)
 
----
-
 ## Important Programming Requirements
 
 ### For All Tasks:
@@ -124,8 +116,6 @@ Extend Task 2 to identify:
 - Identity codes must be unique
 - Yields must be positive numbers with 1 decimal place
 
----
-
 ## Testing Strategy
 
 ### Test Data Should Include:
@@ -141,8 +131,6 @@ Extend Task 2 to identify:
 2. Cow with 4+ days below 12 litres (should be flagged)
 3. Cow with exactly 3 days below 12 litres (should NOT be flagged)
 4. Duplicate identity code (should be rejected)
-
----
 
 ## Question 1 Requirements (Exam Questions)
 
@@ -171,8 +159,6 @@ Explain the logic for identifying cows with <12 litres on 4+ days
 ### 1(d)(ii) - Storing Low-Yield Cow IDs
 
 Explain how to store the identity codes of flagged cows
-
----
 
 ## Summary Checklist
 
