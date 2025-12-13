@@ -15,4 +15,20 @@ export function inputCow(day, cowId, morningYield, eveningYield) {
   } else {
     return weeklyData[day].milking.push({ cowId, morningYield, eveningYield });
   }
+  // TODO create a function that adds 2 numbers together
 }
+
+export function sumOfMilkYields() {
+  const allMorningYields = weeklyData.flatMap((day) => {
+    return day.milking.map((record) => record.morningYield)
+  })
+  const allEveningYields = weeklyData.flatMap((day) => {
+    return day.milking.map((record) => record.eveningYield)
+  })
+  console.log(allMorningYields, allEveningYields) 
+}
+
+inputCow(1, 101, 10, 10)
+inputCow(2, 102, 10, 10)
+inputCow(3, 103, 10, 10)
+sumOfMilkYields()
